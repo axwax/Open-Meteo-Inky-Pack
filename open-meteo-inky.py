@@ -16,7 +16,7 @@ import machine
 # variables to change
 LAT = 49.18
 LNG = 11.50
-TIMEZONE = "auto"
+TIMEZONE = "auto" # determines time zone from lat/long
 WIFI_COUNTRY = "DE"
 SLEEPTIME = 60 # how many seconds until refresh?
 
