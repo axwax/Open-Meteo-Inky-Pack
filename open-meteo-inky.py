@@ -1,3 +1,8 @@
+# Open-Meteo example for the Pimoroni Pico Inky Pack by AxWax
+# For required packages check the instructions at https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/pico_inky#wireless-examples
+# You'll need to upload the icons folder to your pico
+# Weather icons created by bqlqn at https://www.flaticon.com/authors/bqlqn
+
 import WIFI_CONFIG
 from network_manager import NetworkManager
 import time
@@ -49,7 +54,6 @@ WEATHERCODES = {
     99: 'thunderstorm with heavy hail'
 }
 
-# Weather icons created by bqlqn at https://www.flaticon.com/authors/bqlqn
 WEATHERICONS = {
     0: 'clear',
     1: 'mostlyclear',
