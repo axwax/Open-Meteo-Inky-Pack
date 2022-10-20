@@ -20,6 +20,7 @@ TIMEZONE = "auto" # determines time zone from lat/long
 WIFI_COUNTRY = "DE"
 SLEEPTIME = 60 # how many seconds until refresh?
 
+# https://api.open-meteo.com/v1/forecast?latitude=49.18&longitude=11.50&current_weather=true&timezone=auto
 WEATHER_ENDPOINT = "https://api.open-meteo.com/v1/forecast?latitude=" + str(LAT) + "&longitude=" + str(LNG) + "&current_weather=true&timezone=" + TIMEZONE
 
 # Weather codes from https://open-meteo.com/en/docs#:~:text=WMO%20Weather%20interpretation%20codes%20(WW)
